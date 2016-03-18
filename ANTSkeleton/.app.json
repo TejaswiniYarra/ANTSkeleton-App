@@ -8,9 +8,40 @@
       "title": "Home View",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "authenticationView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:authentication",
+          "name": "authenticationViewModel",
+          "dataProvider": "antskeleton",
+          "emailLabel": "User ID",
+          "emailPlaceholder": "Enter User ID",
+          "passwordLabel": "Password",
+          "passwordPlaceholder": "Enter Password",
+          "signinLabel": "Recharge",
+          "signinRedirect": "home",
+          "enableRegistration": false,
+          "enableLogout": false,
+          "enableRememberme": false
+        }
+      ],
+      "title": "Authentication",
+      "addToNavigation": false
     }
   ],
-  "dataProviders": [],
+  "dataProviders": [
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "antskeleton",
+      "title": "ANTSkeleton / ANTSkeleton",
+      "source": "everlive",
+      "everliveKey": "v3bk9ume6rgbr5en",
+      "offlineStorage": true
+    }
+  ],
   "name": "kendoUiMobileApp",
   "navigation": "tabstrip",
   "view": "home",
