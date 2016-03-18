@@ -1,0 +1,45 @@
+{
+  "ProjectName": "ANTSkeleton",
+  "ProjectGuid": "787c8f82-e2e5-499a-ab7f-9798d55bb41e",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.ANTSkeleton",
+  "DisplayName": "ANTSkeleton",
+  "Author": "",
+  "Description": "ANTSkeleton",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{a7ee696d-1565-43f4-9f75-b0dbbe606fd8}",
+  "WP8ProductID": "{0a3b7994-25c4-421a-94d4-ec9ad7da5e80}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.ANTSkeleton",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
